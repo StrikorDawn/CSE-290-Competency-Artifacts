@@ -1,0 +1,374 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0dy0yms2cm3"]
+
+[ext_resource type="Script" path="res://survivor_game.gd" id="1_4oftt"]
+[ext_resource type="PackedScene" uid="uid://c4ptjg4ht2q4p" path="res://player.tscn" id="1_erb8w"]
+[ext_resource type="PackedScene" uid="uid://jwf6pei2wvk" path="res://pine_tree.tscn" id="2_dnuxy"]
+
+[sub_resource type="Curve2D" id="Curve2D_jdx56"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -136, -136, 0, 0, 0, 0, 2040, -128, 0, 0, 0, 0, 2048, 1152, 0, 0, 0, 0, -128, 1152, 0, 0, 0, 0, -136, -136)
+}
+point_count = 5
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_4oftt")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -10
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.271606, 0.213971, 0.104477, 1)
+
+[node name="Trees" type="Node" parent="."]
+
+[node name="Pine Tree" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1857, 320)
+
+[node name="Pine Tree2" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1441, 232)
+
+[node name="Pine Tree3" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1593, 632)
+
+[node name="Pine Tree4" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1937, 920)
+
+[node name="Pine Tree5" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1273, 848)
+
+[node name="Pine Tree6" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(705, 800)
+
+[node name="Pine Tree7" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(553, 512)
+
+[node name="Pine Tree8" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1009, 352)
+
+[node name="Pine Tree9" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(553, 168)
+
+[node name="Pine Tree19" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3442, 408)
+
+[node name="Pine Tree20" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3026, 320)
+
+[node name="Pine Tree21" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3178, 720)
+
+[node name="Pine Tree22" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3522, 1008)
+
+[node name="Pine Tree23" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2858, 936)
+
+[node name="Pine Tree24" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2290, 888)
+
+[node name="Pine Tree25" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2138, 600)
+
+[node name="Pine Tree26" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2594, 440)
+
+[node name="Pine Tree27" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2138, 256)
+
+[node name="Pine Tree28" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3194, -538)
+
+[node name="Pine Tree29" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2778, -626)
+
+[node name="Pine Tree30" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2930, -226)
+
+[node name="Pine Tree31" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3274, 62)
+
+[node name="Pine Tree32" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2610, -10)
+
+[node name="Pine Tree33" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2042, -58)
+
+[node name="Pine Tree34" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1890, -346)
+
+[node name="Pine Tree35" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2346, -506)
+
+[node name="Pine Tree36" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1890, -690)
+
+[node name="Pine Tree37" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1617, -538)
+
+[node name="Pine Tree38" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1201, -626)
+
+[node name="Pine Tree39" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1353, -226)
+
+[node name="Pine Tree40" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1697, 62)
+
+[node name="Pine Tree41" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1033, -10)
+
+[node name="Pine Tree42" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(465, -58)
+
+[node name="Pine Tree43" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(313, -346)
+
+[node name="Pine Tree44" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(769, -506)
+
+[node name="Pine Tree45" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(313, -690)
+
+[node name="Pine Tree46" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(57, -602)
+
+[node name="Pine Tree47" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-359, -690)
+
+[node name="Pine Tree48" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-207, -290)
+
+[node name="Pine Tree49" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(137, -2)
+
+[node name="Pine Tree50" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-527, -74)
+
+[node name="Pine Tree51" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1095, -122)
+
+[node name="Pine Tree52" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1247, -410)
+
+[node name="Pine Tree53" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-791, -570)
+
+[node name="Pine Tree54" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1247, -754)
+
+[node name="Pine Tree55" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-199, 1198)
+
+[node name="Pine Tree56" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-615, 1110)
+
+[node name="Pine Tree57" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-463, 1510)
+
+[node name="Pine Tree58" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-119, 1798)
+
+[node name="Pine Tree59" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-783, 1726)
+
+[node name="Pine Tree60" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1351, 1678)
+
+[node name="Pine Tree61" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1503, 1390)
+
+[node name="Pine Tree62" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1047, 1230)
+
+[node name="Pine Tree63" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1503, 1046)
+
+[node name="Pine Tree64" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1417, 1286)
+
+[node name="Pine Tree65" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1001, 1198)
+
+[node name="Pine Tree66" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1153, 1598)
+
+[node name="Pine Tree67" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1497, 1886)
+
+[node name="Pine Tree68" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(833, 1814)
+
+[node name="Pine Tree69" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(265, 1766)
+
+[node name="Pine Tree70" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(113, 1478)
+
+[node name="Pine Tree71" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(569, 1318)
+
+[node name="Pine Tree72" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(113, 1134)
+
+[node name="Pine Tree73" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3025, 1238)
+
+[node name="Pine Tree74" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2609, 1150)
+
+[node name="Pine Tree75" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2761, 1550)
+
+[node name="Pine Tree76" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(3105, 1838)
+
+[node name="Pine Tree77" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2441, 1766)
+
+[node name="Pine Tree78" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1873, 1718)
+
+[node name="Pine Tree79" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1721, 1430)
+
+[node name="Pine Tree80" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(2177, 1270)
+
+[node name="Pine Tree81" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(1721, 1086)
+
+[node name="Pine Tree10" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(250, 345)
+
+[node name="Pine Tree11" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-166, 257)
+
+[node name="Pine Tree12" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-14, 657)
+
+[node name="Pine Tree13" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(330, 945)
+
+[node name="Pine Tree14" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-334, 873)
+
+[node name="Pine Tree15" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-902, 825)
+
+[node name="Pine Tree16" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1054, 537)
+
+[node name="Pine Tree17" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-598, 377)
+
+[node name="Pine Tree18" parent="Trees" instance=ExtResource("2_dnuxy")]
+position = Vector2(-1054, 193)
+
+[node name="Player" parent="." instance=ExtResource("1_erb8w")]
+position = Vector2(960, 544)
+scale = Vector2(0.64, 0.64)
+
+[node name="Path2D" type="Path2D" parent="Player"]
+position = Vector2(-1500, -850)
+scale = Vector2(1.5625, 1.5625)
+curve = SubResource("Curve2D_jdx56")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
+unique_name_in_owner = true
+position = Vector2(-136, -136)
+rotation = 0.00367645
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Player"]
+layer = 10
+
+[node name="Score" type="Label" parent="Player/CanvasLayer"]
+unique_name_in_owner = true
+z_index = 1
+y_sort_enabled = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -145.0
+offset_right = 145.0
+offset_bottom = 99.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "Score:  0"
+horizontal_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.3
+autostart = true
+
+[node name="GameOver" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.303061, 0, 0.0635258, 0.454902)
+
+[node name="EndText" type="Label" parent="GameOver/ColorRect"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -347.5
+offset_top = -119.5
+offset_right = 347.5
+offset_bottom = 55.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 128
+text = "Game Over"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Try Again" type="Button" parent="GameOver/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -190.0
+offset_top = 137.0
+offset_right = 190.0
+offset_bottom = 231.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Try Again?"
+
+[node name="Quit" type="Button" parent="GameOver/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -191.0
+offset_top = 256.0
+offset_right = 191.0
+offset_bottom = 348.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit"
+
+[connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="GameOver/ColorRect/Try Again" to="." method="_on_try_again_pressed"]
+[connection signal="pressed" from="GameOver/ColorRect/Quit" to="." method="_on_quit_pressed"]
